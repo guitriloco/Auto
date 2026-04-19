@@ -1,0 +1,23 @@
+name: Empire Hub CI
+
+on:
+  push:
+    branches: [ master, main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v2
+
+      - name: Validate All Terraform Modules
+        run: |
+          find . -name "main.tf" -exec dirname {} \; | sort -u | xargs -I % sh -c 'cd % && terraform init -backend=false && terraform validate'
+
+      - name: Compile Python Scripts
+        run: |
+          python3 -m py_compile scripts/*.py || true

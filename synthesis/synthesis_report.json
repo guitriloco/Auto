@@ -1,0 +1,1133 @@
+{
+  "summary": {
+    "timestamp": "2026-04-17T02:55:52.113105",
+    "nodes_aggregated": 102,
+    "total_revenue_usd": 414233.9597916178,
+    "global_synthesis_index": 79.12688884174722,
+    "status": "SUCCESS"
+  },
+  "top_priority_nodes": [
+    {
+      "node_id": "bio-wealth-us-east-1-node-6",
+      "niche": "bio-wealth",
+      "region": "us-east-1",
+      "timestamp": "2026-04-17T02:55:52.112621",
+      "operational_health": 0.9555796009577239,
+      "synthesis_value": 146.8278386786846,
+      "revenue_usd": 2660.2829091025865,
+      "bio_insights_collected": 179
+    },
+    {
+      "node_id": "bio-wealth-ap-southeast-1-node-6",
+      "niche": "bio-wealth",
+      "region": "ap-southeast-1",
+      "timestamp": "2026-04-17T02:55:52.112693",
+      "operational_health": 0.9517533759815153,
+      "synthesis_value": 143.6570466576083,
+      "revenue_usd": 4147.843818136806,
+      "bio_insights_collected": 658
+    },
+    {
+      "node_id": "bio-wealth-us-east-1-node-9",
+      "niche": "bio-wealth",
+      "region": "us-east-1",
+      "timestamp": "2026-04-17T02:55:52.112625",
+      "operational_health": 0.9701696525024813,
+      "synthesis_value": 143.29055360837125,
+      "revenue_usd": 3791.4247941823187,
+      "bio_insights_collected": 296
+    },
+    {
+      "node_id": "bio-wealth-eu-west-1-node-1",
+      "niche": "bio-wealth",
+      "region": "eu-west-1",
+      "timestamp": "2026-04-17T02:55:52.112634",
+      "operational_health": 0.9646381932495083,
+      "synthesis_value": 142.65955070187238,
+      "revenue_usd": 3090.2038531099374,
+      "bio_insights_collected": 988
+    },
+    {
+      "node_id": "bio-wealth-sgp1-node-2",
+      "niche": "bio-wealth",
+      "region": "sgp1",
+      "timestamp": "2026-04-17T02:55:52.112806",
+      "operational_health": 0.9962966721128149,
+      "synthesis_value": 141.3963998053518,
+      "revenue_usd": 3537.968809145265,
+      "bio_insights_collected": 844
+    },
+    {
+      "node_id": "bio-wealth-nyc1-node-5",
+      "niche": "bio-wealth",
+      "region": "nyc1",
+      "timestamp": "2026-04-17T02:55:52.112729",
+      "operational_health": 0.986067389608233,
+      "synthesis_value": 140.39807824604327,
+      "revenue_usd": 4041.107116768286,
+      "bio_insights_collected": 728
+    },
+    {
+      "node_id": "bio-wealth-nyc1-node-9",
+      "niche": "bio-wealth",
+      "region": "nyc1",
+      "timestamp": "2026-04-17T02:55:52.112749",
+      "operational_health": 0.9583398979217969,
+      "synthesis_value": 139.13054188144878,
+      "revenue_usd": 3551.850657490351,
+      "bio_insights_collected": 594
+    },
+    {
+      "node_id": "bio-wealth-ams3-node-2",
+      "niche": "bio-wealth",
+      "region": "ams3",
+      "timestamp": "2026-04-17T02:55:52.112763",
+      "operational_health": 0.9907184070777907,
+      "synthesis_value": 138.30543964612932,
+      "revenue_usd": 4120.875463769609,
+      "bio_insights_collected": 433
+    },
+    {
+      "node_id": "bio-wealth-ap-southeast-1-node-8",
+      "niche": "bio-wealth",
+      "region": "ap-southeast-1",
+      "timestamp": "2026-04-17T02:55:52.112700",
+      "operational_health": 0.9591678532377909,
+      "synthesis_value": 138.27266609533223,
+      "revenue_usd": 1887.4354054993198,
+      "bio_insights_collected": 194
+    },
+    {
+      "node_id": "bio-wealth-ap-southeast-1-node-2",
+      "niche": "bio-wealth",
+      "region": "ap-southeast-1",
+      "timestamp": "2026-04-17T02:55:52.112675",
+      "operational_health": 0.9601819777821222,
+      "synthesis_value": 134.67291726559148,
+      "revenue_usd": 1333.0567647248313,
+      "bio_insights_collected": 946
+    }
+  ],
+  "full_data": [
+    {
+      "node_id": "bio-wealth-us-east-1-node-6",
+      "niche": "bio-wealth",
+      "region": "us-east-1",
+      "timestamp": "2026-04-17T02:55:52.112621",
+      "operational_health": 0.9555796009577239,
+      "synthesis_value": 146.8278386786846,
+      "revenue_usd": 2660.2829091025865,
+      "bio_insights_collected": 179
+    },
+    {
+      "node_id": "bio-wealth-ap-southeast-1-node-6",
+      "niche": "bio-wealth",
+      "region": "ap-southeast-1",
+      "timestamp": "2026-04-17T02:55:52.112693",
+      "operational_health": 0.9517533759815153,
+      "synthesis_value": 143.6570466576083,
+      "revenue_usd": 4147.843818136806,
+      "bio_insights_collected": 658
+    },
+    {
+      "node_id": "bio-wealth-us-east-1-node-9",
+      "niche": "bio-wealth",
+      "region": "us-east-1",
+      "timestamp": "2026-04-17T02:55:52.112625",
+      "operational_health": 0.9701696525024813,
+      "synthesis_value": 143.29055360837125,
+      "revenue_usd": 3791.4247941823187,
+      "bio_insights_collected": 296
+    },
+    {
+      "node_id": "bio-wealth-eu-west-1-node-1",
+      "niche": "bio-wealth",
+      "region": "eu-west-1",
+      "timestamp": "2026-04-17T02:55:52.112634",
+      "operational_health": 0.9646381932495083,
+      "synthesis_value": 142.65955070187238,
+      "revenue_usd": 3090.2038531099374,
+      "bio_insights_collected": 988
+    },
+    {
+      "node_id": "bio-wealth-sgp1-node-2",
+      "niche": "bio-wealth",
+      "region": "sgp1",
+      "timestamp": "2026-04-17T02:55:52.112806",
+      "operational_health": 0.9962966721128149,
+      "synthesis_value": 141.3963998053518,
+      "revenue_usd": 3537.968809145265,
+      "bio_insights_collected": 844
+    },
+    {
+      "node_id": "bio-wealth-nyc1-node-5",
+      "niche": "bio-wealth",
+      "region": "nyc1",
+      "timestamp": "2026-04-17T02:55:52.112729",
+      "operational_health": 0.986067389608233,
+      "synthesis_value": 140.39807824604327,
+      "revenue_usd": 4041.107116768286,
+      "bio_insights_collected": 728
+    },
+    {
+      "node_id": "bio-wealth-nyc1-node-9",
+      "niche": "bio-wealth",
+      "region": "nyc1",
+      "timestamp": "2026-04-17T02:55:52.112749",
+      "operational_health": 0.9583398979217969,
+      "synthesis_value": 139.13054188144878,
+      "revenue_usd": 3551.850657490351,
+      "bio_insights_collected": 594
+    },
+    {
+      "node_id": "bio-wealth-ams3-node-2",
+      "niche": "bio-wealth",
+      "region": "ams3",
+      "timestamp": "2026-04-17T02:55:52.112763",
+      "operational_health": 0.9907184070777907,
+      "synthesis_value": 138.30543964612932,
+      "revenue_usd": 4120.875463769609,
+      "bio_insights_collected": 433
+    },
+    {
+      "node_id": "bio-wealth-ap-southeast-1-node-8",
+      "niche": "bio-wealth",
+      "region": "ap-southeast-1",
+      "timestamp": "2026-04-17T02:55:52.112700",
+      "operational_health": 0.9591678532377909,
+      "synthesis_value": 138.27266609533223,
+      "revenue_usd": 1887.4354054993198,
+      "bio_insights_collected": 194
+    },
+    {
+      "node_id": "bio-wealth-ap-southeast-1-node-2",
+      "niche": "bio-wealth",
+      "region": "ap-southeast-1",
+      "timestamp": "2026-04-17T02:55:52.112675",
+      "operational_health": 0.9601819777821222,
+      "synthesis_value": 134.67291726559148,
+      "revenue_usd": 1333.0567647248313,
+      "bio_insights_collected": 946
+    },
+    {
+      "node_id": "bio-wealth-nyc1-node-7",
+      "niche": "bio-wealth",
+      "region": "nyc1",
+      "timestamp": "2026-04-17T02:55:52.112739",
+      "operational_health": 0.9850232677705157,
+      "synthesis_value": 134.19464097001304,
+      "revenue_usd": 1265.3474703534678,
+      "bio_insights_collected": 134
+    },
+    {
+      "node_id": "bio-wealth-sgp1-node-7",
+      "niche": "bio-wealth",
+      "region": "sgp1",
+      "timestamp": "2026-04-17T02:55:52.112821",
+      "operational_health": 0.9948355710976321,
+      "synthesis_value": 133.30587492365598,
+      "revenue_usd": 1115.3214240004454,
+      "bio_insights_collected": 469
+    },
+    {
+      "node_id": "bio-wealth-eu-west-1-node-0",
+      "niche": "bio-wealth",
+      "region": "eu-west-1",
+      "timestamp": "2026-04-17T02:55:52.112629",
+      "operational_health": 0.9969259188620836,
+      "synthesis_value": 132.40124100406985,
+      "revenue_usd": 591.1152250139264,
+      "bio_insights_collected": 534
+    },
+    {
+      "node_id": "bio-wealth-ams3-node-9",
+      "niche": "bio-wealth",
+      "region": "ams3",
+      "timestamp": "2026-04-17T02:55:52.112793",
+      "operational_health": 0.9853931739913228,
+      "synthesis_value": 129.67263014611137,
+      "revenue_usd": 2079.819243498999,
+      "bio_insights_collected": 793
+    },
+    {
+      "node_id": "bio-wealth-nyc1-node-6",
+      "niche": "bio-wealth",
+      "region": "nyc1",
+      "timestamp": "2026-04-17T02:55:52.112734",
+      "operational_health": 0.9735181329270844,
+      "synthesis_value": 129.26930808889853,
+      "revenue_usd": 2615.7673571481664,
+      "bio_insights_collected": 207
+    },
+    {
+      "node_id": "bio-wealth-ap-southeast-1-node-1",
+      "niche": "bio-wealth",
+      "region": "ap-southeast-1",
+      "timestamp": "2026-04-17T02:55:52.112671",
+      "operational_health": 0.9627458862348045,
+      "synthesis_value": 128.30341198849214,
+      "revenue_usd": 1835.5481721009164,
+      "bio_insights_collected": 997
+    },
+    {
+      "node_id": "financas-eu-west-1-node-1",
+      "niche": "financas",
+      "region": "eu-west-1",
+      "timestamp": "2026-04-17T02:55:52.112891",
+      "operational_health": 0.9989364382235882,
+      "synthesis_value": 119.41652858385271,
+      "revenue_usd": 1573.8443958793819,
+      "transactions_processed": 38351
+    },
+    {
+      "node_id": "bio-wealth-sgp1-node-0",
+      "niche": "bio-wealth",
+      "region": "sgp1",
+      "timestamp": "2026-04-17T02:55:52.112797",
+      "operational_health": 0.9966007982753509,
+      "synthesis_value": 118.76190891101723,
+      "revenue_usd": 1399.6323710683796,
+      "bio_insights_collected": 180
+    },
+    {
+      "node_id": "bio-wealth-eu-west-1-node-7",
+      "niche": "bio-wealth",
+      "region": "eu-west-1",
+      "timestamp": "2026-04-17T02:55:52.112650",
+      "operational_health": 0.9839763094892566,
+      "synthesis_value": 118.35875670297976,
+      "revenue_usd": 642.4508341628127,
+      "bio_insights_collected": 557
+    },
+    {
+      "node_id": "financas-nyc1-node-9",
+      "niche": "financas",
+      "region": "nyc1",
+      "timestamp": "2026-04-17T02:55:52.112993",
+      "operational_health": 0.9707861664109315,
+      "synthesis_value": 117.42821987716866,
+      "revenue_usd": 5486.386045741668,
+      "transactions_processed": 40560
+    },
+    {
+      "node_id": "financas-us-east-1-node-3",
+      "niche": "financas",
+      "region": "us-east-1",
+      "timestamp": "2026-04-17T02:55:52.112858",
+      "operational_health": 0.9996846071897945,
+      "synthesis_value": 116.96222936404608,
+      "revenue_usd": 6232.248749152028,
+      "transactions_processed": 42688
+    },
+    {
+      "node_id": "bio-wealth-sgp1-node-1",
+      "niche": "bio-wealth",
+      "region": "sgp1",
+      "timestamp": "2026-04-17T02:55:52.112801",
+      "operational_health": 0.9687387255075737,
+      "synthesis_value": 115.52760841656824,
+      "revenue_usd": 3778.467582536116,
+      "bio_insights_collected": 324
+    },
+    {
+      "node_id": "financas-sgp1-node-3",
+      "niche": "financas",
+      "region": "sgp1",
+      "timestamp": "2026-04-17T02:55:52.113055",
+      "operational_health": 0.9695634352406555,
+      "synthesis_value": 114.06315688299343,
+      "revenue_usd": 8151.668507044801,
+      "transactions_processed": 23456
+    },
+    {
+      "node_id": "financas-nyc1-node-8",
+      "niche": "financas",
+      "region": "nyc1",
+      "timestamp": "2026-04-17T02:55:52.112987",
+      "operational_health": 0.9893696933241768,
+      "synthesis_value": 113.07112382278491,
+      "revenue_usd": 9500.960390338809,
+      "transactions_processed": 27719
+    },
+    {
+      "node_id": "financas-eu-west-1-node-3",
+      "niche": "financas",
+      "region": "eu-west-1",
+      "timestamp": "2026-04-17T02:55:52.112901",
+      "operational_health": 0.9762645622340546,
+      "synthesis_value": 113.06457254248521,
+      "revenue_usd": 1297.5537367445777,
+      "transactions_processed": 1997
+    },
+    {
+      "node_id": "financas-nyc1-node-0",
+      "niche": "financas",
+      "region": "nyc1",
+      "timestamp": "2026-04-17T02:55:52.112957",
+      "operational_health": 0.975999473151038,
+      "synthesis_value": 112.07574674734933,
+      "revenue_usd": 8494.519620767463,
+      "transactions_processed": 41512
+    },
+    {
+      "node_id": "bio-wealth-us-east-1-node-2",
+      "niche": "bio-wealth",
+      "region": "us-east-1",
+      "timestamp": "2026-04-17T02:55:52.112594",
+      "operational_health": 0.9646587342565915,
+      "synthesis_value": 110.91964591530238,
+      "revenue_usd": 1798.0236669560009,
+      "bio_insights_collected": 975
+    },
+    {
+      "node_id": "financas-eu-west-1-node-8",
+      "niche": "financas",
+      "region": "eu-west-1",
+      "timestamp": "2026-04-17T02:55:52.112917",
+      "operational_health": 0.9986981940510876,
+      "synthesis_value": 110.05419374738776,
+      "revenue_usd": 6001.133677143087,
+      "transactions_processed": 39019
+    },
+    {
+      "node_id": "financas-ap-southeast-1-node-0",
+      "niche": "financas",
+      "region": "ap-southeast-1",
+      "timestamp": "2026-04-17T02:55:52.112925",
+      "operational_health": 0.9977164338279808,
+      "synthesis_value": 109.75248637013081,
+      "revenue_usd": 8632.298670663338,
+      "transactions_processed": 14401
+    },
+    {
+      "node_id": "bio-wealth-ap-southeast-1-node-3",
+      "niche": "bio-wealth",
+      "region": "ap-southeast-1",
+      "timestamp": "2026-04-17T02:55:52.112679",
+      "operational_health": 0.9683993294439395,
+      "synthesis_value": 107.31659726813875,
+      "revenue_usd": 4588.984736620012,
+      "bio_insights_collected": 232
+    },
+    {
+      "node_id": "bio-wealth-us-east-1-node-3",
+      "niche": "bio-wealth",
+      "region": "us-east-1",
+      "timestamp": "2026-04-17T02:55:52.112606",
+      "operational_health": 0.9958755631285303,
+      "synthesis_value": 103.02274343762991,
+      "revenue_usd": 524.833712797159,
+      "bio_insights_collected": 153
+    },
+    {
+      "node_id": "financas-sgp1-node-5",
+      "niche": "financas",
+      "region": "sgp1",
+      "timestamp": "2026-04-17T02:55:52.113063",
+      "operational_health": 0.9892725915893367,
+      "synthesis_value": 102.13887253256235,
+      "revenue_usd": 9504.332282461924,
+      "transactions_processed": 27936
+    },
+    {
+      "node_id": "bio-wealth-us-east-1-node-4",
+      "niche": "bio-wealth",
+      "region": "us-east-1",
+      "timestamp": "2026-04-17T02:55:52.112612",
+      "operational_health": 0.9611906827869462,
+      "synthesis_value": 101.05601861114177,
+      "revenue_usd": 3577.3122477811808,
+      "bio_insights_collected": 546
+    },
+    {
+      "node_id": "bio-wealth-nyc1-node-4",
+      "niche": "bio-wealth",
+      "region": "nyc1",
+      "timestamp": "2026-04-17T02:55:52.112724",
+      "operational_health": 0.9679627077787093,
+      "synthesis_value": 100.16793462020598,
+      "revenue_usd": 1158.5312786431064,
+      "bio_insights_collected": 559
+    },
+    {
+      "node_id": "bio-wealth-ap-southeast-1-node-9",
+      "niche": "bio-wealth",
+      "region": "ap-southeast-1",
+      "timestamp": "2026-04-17T02:55:52.112704",
+      "operational_health": 0.9781462344827179,
+      "synthesis_value": 100.06350208583052,
+      "revenue_usd": 3460.2209824638353,
+      "bio_insights_collected": 765
+    },
+    {
+      "node_id": "bio-wealth-us-east-1-node-0",
+      "niche": "bio-wealth",
+      "region": "us-east-1",
+      "timestamp": "2026-04-17T02:55:52.112569",
+      "operational_health": 0.9971009153020038,
+      "synthesis_value": 99.46460697379267,
+      "revenue_usd": 1138.966660691174,
+      "bio_insights_collected": 638
+    },
+    {
+      "node_id": "financas-eu-west-1-node-4",
+      "niche": "financas",
+      "region": "eu-west-1",
+      "timestamp": "2026-04-17T02:55:52.112905",
+      "operational_health": 0.9562203309387602,
+      "synthesis_value": 99.32063466910061,
+      "revenue_usd": 9089.761419776944,
+      "transactions_processed": 33345
+    },
+    {
+      "node_id": "financas-sgp1-node-1",
+      "niche": "financas",
+      "region": "sgp1",
+      "timestamp": "2026-04-17T02:55:52.113044",
+      "operational_health": 0.9701957239263425,
+      "synthesis_value": 96.2615857680906,
+      "revenue_usd": 3841.37719377011,
+      "transactions_processed": 3590
+    },
+    {
+      "node_id": "financas-sgp1-node-7",
+      "niche": "financas",
+      "region": "sgp1",
+      "timestamp": "2026-04-17T02:55:52.113071",
+      "operational_health": 0.9970094447032918,
+      "synthesis_value": 94.41182024672234,
+      "revenue_usd": 3310.9646461500765,
+      "transactions_processed": 23919
+    },
+    {
+      "node_id": "financas-eu-west-1-node-0",
+      "niche": "financas",
+      "region": "eu-west-1",
+      "timestamp": "2026-04-17T02:55:52.112886",
+      "operational_health": 0.9873587993599887,
+      "synthesis_value": 92.83730865040678,
+      "revenue_usd": 1837.7148416613632,
+      "transactions_processed": 9220
+    },
+    {
+      "node_id": "financas-nyc1-node-1",
+      "niche": "financas",
+      "region": "nyc1",
+      "timestamp": "2026-04-17T02:55:52.112965",
+      "operational_health": 0.9532683115820482,
+      "synthesis_value": 92.55716466332068,
+      "revenue_usd": 2964.8359008011703,
+      "transactions_processed": 36000
+    },
+    {
+      "node_id": "bio-wealth-us-east-1-node-5",
+      "niche": "bio-wealth",
+      "region": "us-east-1",
+      "timestamp": "2026-04-17T02:55:52.112616",
+      "operational_health": 0.9754690369457362,
+      "synthesis_value": 91.3409596059296,
+      "revenue_usd": 2131.8314716394093,
+      "bio_insights_collected": 632
+    },
+    {
+      "node_id": "bio-wealth-eu-west-1-node-8",
+      "niche": "bio-wealth",
+      "region": "eu-west-1",
+      "timestamp": "2026-04-17T02:55:52.112654",
+      "operational_health": 0.9557697810150994,
+      "synthesis_value": 88.16874693428223,
+      "revenue_usd": 4451.452756886487,
+      "bio_insights_collected": 186
+    },
+    {
+      "node_id": "financas-ap-southeast-1-node-7",
+      "niche": "financas",
+      "region": "ap-southeast-1",
+      "timestamp": "2026-04-17T02:55:52.112953",
+      "operational_health": 0.9985810619857933,
+      "synthesis_value": 86.9637072885733,
+      "revenue_usd": 5471.862031000125,
+      "transactions_processed": 44216
+    },
+    {
+      "node_id": "bio-wealth-ams3-node-6",
+      "niche": "bio-wealth",
+      "region": "ams3",
+      "timestamp": "2026-04-17T02:55:52.112785",
+      "operational_health": 0.9866982634615372,
+      "synthesis_value": 86.64086868830056,
+      "revenue_usd": 2498.506390477314,
+      "bio_insights_collected": 957
+    },
+    {
+      "node_id": "financas-us-east-1-node-0",
+      "niche": "financas",
+      "region": "us-east-1",
+      "timestamp": "2026-04-17T02:55:52.112836",
+      "operational_health": 0.9666530106913435,
+      "synthesis_value": 85.22085317492717,
+      "revenue_usd": 6011.158925525737,
+      "transactions_processed": 1198
+    },
+    {
+      "node_id": "financas-eu-west-1-node-9",
+      "niche": "financas",
+      "region": "eu-west-1",
+      "timestamp": "2026-04-17T02:55:52.112921",
+      "operational_health": 0.9994121536120619,
+      "synthesis_value": 84.27450038224033,
+      "revenue_usd": 6200.402473328435,
+      "transactions_processed": 36140
+    },
+    {
+      "node_id": "financas-sgp1-node-9",
+      "niche": "financas",
+      "region": "sgp1",
+      "timestamp": "2026-04-17T02:55:52.113082",
+      "operational_health": 0.9829215132021688,
+      "synthesis_value": 84.22046360608226,
+      "revenue_usd": 6442.537026024412,
+      "transactions_processed": 9550
+    },
+    {
+      "node_id": "bio-wealth-nyc1-node-2",
+      "niche": "bio-wealth",
+      "region": "nyc1",
+      "timestamp": "2026-04-17T02:55:52.112712",
+      "operational_health": 0.9920818641376723,
+      "synthesis_value": 78.74750619385037,
+      "revenue_usd": 3221.161484947216,
+      "bio_insights_collected": 167
+    },
+    {
+      "node_id": "bio-wealth-ams3-node-4",
+      "niche": "bio-wealth",
+      "region": "ams3",
+      "timestamp": "2026-04-17T02:55:52.112778",
+      "operational_health": 0.9728827263061787,
+      "synthesis_value": 77.56396588423483,
+      "revenue_usd": 784.7928938763343,
+      "bio_insights_collected": 571
+    },
+    {
+      "node_id": "bio-wealth-sgp1-node-8",
+      "niche": "bio-wealth",
+      "region": "sgp1",
+      "timestamp": "2026-04-17T02:55:52.112827",
+      "operational_health": 0.9736841329838934,
+      "synthesis_value": 76.89605938747874,
+      "revenue_usd": 2369.6656129177427,
+      "bio_insights_collected": 736
+    },
+    {
+      "node_id": "bio-wealth-nyc1-node-0",
+      "niche": "bio-wealth",
+      "region": "nyc1",
+      "timestamp": "2026-04-17T02:55:52.112708",
+      "operational_health": 0.9846308746823952,
+      "synthesis_value": 76.70309567063352,
+      "revenue_usd": 1398.925445812025,
+      "bio_insights_collected": 326
+    },
+    {
+      "node_id": "financas-ams3-node-2",
+      "niche": "financas",
+      "region": "ams3",
+      "timestamp": "2026-04-17T02:55:52.113011",
+      "operational_health": 0.9914647185270298,
+      "synthesis_value": 75.99538395448205,
+      "revenue_usd": 8507.05937181838,
+      "transactions_processed": 42899
+    },
+    {
+      "node_id": "bio-wealth-eu-west-1-node-9",
+      "niche": "bio-wealth",
+      "region": "eu-west-1",
+      "timestamp": "2026-04-17T02:55:52.112658",
+      "operational_health": 0.9739318512660858,
+      "synthesis_value": 75.43411161888255,
+      "revenue_usd": 4528.563536634256,
+      "bio_insights_collected": 586
+    },
+    {
+      "node_id": "financas-sgp1-node-6",
+      "niche": "financas",
+      "region": "sgp1",
+      "timestamp": "2026-04-17T02:55:52.113067",
+      "operational_health": 0.9918772014765427,
+      "synthesis_value": 75.16778838125305,
+      "revenue_usd": 4763.97711686239,
+      "transactions_processed": 26081
+    },
+    {
+      "node_id": "bio-wealth-sgp1-node-4",
+      "niche": "bio-wealth",
+      "region": "sgp1",
+      "timestamp": "2026-04-17T02:55:52.112809",
+      "operational_health": 0.9912882445239825,
+      "synthesis_value": 69.57617684819681,
+      "revenue_usd": 4696.53663806034,
+      "bio_insights_collected": 979
+    },
+    {
+      "node_id": "bio-wealth-ams3-node-0",
+      "niche": "bio-wealth",
+      "region": "ams3",
+      "timestamp": "2026-04-17T02:55:52.112752",
+      "operational_health": 0.998432776515948,
+      "synthesis_value": 68.5045876013498,
+      "revenue_usd": 3593.662474540592,
+      "bio_insights_collected": 330
+    },
+    {
+      "node_id": "financas-us-east-1-node-1",
+      "niche": "financas",
+      "region": "us-east-1",
+      "timestamp": "2026-04-17T02:55:52.112842",
+      "operational_health": 0.9798062414015618,
+      "synthesis_value": 66.9070484778794,
+      "revenue_usd": 5346.023309350634,
+      "transactions_processed": 25423
+    },
+    {
+      "node_id": "financas-sgp1-node-4",
+      "niche": "financas",
+      "region": "sgp1",
+      "timestamp": "2026-04-17T02:55:52.113059",
+      "operational_health": 0.9683950251311026,
+      "synthesis_value": 65.74828668263443,
+      "revenue_usd": 8185.683806229287,
+      "transactions_processed": 32412
+    },
+    {
+      "node_id": "bio-wealth-eu-west-1-node-5",
+      "niche": "bio-wealth",
+      "region": "eu-west-1",
+      "timestamp": "2026-04-17T02:55:52.112642",
+      "operational_health": 0.9588680251848911,
+      "synthesis_value": 64.89379452813795,
+      "revenue_usd": 3428.1674624435623,
+      "bio_insights_collected": 361
+    },
+    {
+      "node_id": "financas-nyc1-node-2",
+      "niche": "financas",
+      "region": "nyc1",
+      "timestamp": "2026-04-17T02:55:52.112969",
+      "operational_health": 0.9797412536674888,
+      "synthesis_value": 64.66649925207764,
+      "revenue_usd": 9549.86092264229,
+      "transactions_processed": 30951
+    },
+    {
+      "node_id": "financas-us-east-1-node-9",
+      "niche": "financas",
+      "region": "us-east-1",
+      "timestamp": "2026-04-17T02:55:52.112882",
+      "operational_health": 0.9739781102477971,
+      "synthesis_value": 63.19363381384187,
+      "revenue_usd": 3815.6156129343426,
+      "transactions_processed": 25425
+    },
+    {
+      "node_id": "bio-wealth-sgp1-node-5",
+      "niche": "bio-wealth",
+      "region": "sgp1",
+      "timestamp": "2026-04-17T02:55:52.112814",
+      "operational_health": 0.9931388833589359,
+      "synthesis_value": 61.891139400221576,
+      "revenue_usd": 621.0525957752454,
+      "bio_insights_collected": 557
+    },
+    {
+      "node_id": "financas-us-east-1-node-6",
+      "niche": "financas",
+      "region": "us-east-1",
+      "timestamp": "2026-04-17T02:55:52.112872",
+      "operational_health": 0.9676823988090733,
+      "synthesis_value": 61.465082314730125,
+      "revenue_usd": 2516.255900910908,
+      "transactions_processed": 47526
+    },
+    {
+      "node_id": "financas-ams3-node-1",
+      "niche": "financas",
+      "region": "ams3",
+      "timestamp": "2026-04-17T02:55:52.113006",
+      "operational_health": 0.9942162039175115,
+      "synthesis_value": 59.39671323267838,
+      "revenue_usd": 8461.341055511053,
+      "transactions_processed": 7373
+    },
+    {
+      "node_id": "bio-wealth-eu-west-1-node-6",
+      "niche": "bio-wealth",
+      "region": "eu-west-1",
+      "timestamp": "2026-04-17T02:55:52.112646",
+      "operational_health": 0.9755127835942706,
+      "synthesis_value": 59.304588723280816,
+      "revenue_usd": 4284.980098208209,
+      "bio_insights_collected": 520
+    },
+    {
+      "node_id": "financas-ams3-node-9",
+      "niche": "financas",
+      "region": "ams3",
+      "timestamp": "2026-04-17T02:55:52.113035",
+      "operational_health": 0.9716437205561794,
+      "synthesis_value": 58.22660601488104,
+      "revenue_usd": 8307.594652680516,
+      "transactions_processed": 43851
+    },
+    {
+      "node_id": "bio-wealth-eu-west-1-node-4",
+      "niche": "bio-wealth",
+      "region": "eu-west-1",
+      "timestamp": "2026-04-17T02:55:52.112639",
+      "operational_health": 0.9898499571137892,
+      "synthesis_value": 58.205372130970424,
+      "revenue_usd": 1466.6858476495356,
+      "bio_insights_collected": 177
+    },
+    {
+      "node_id": "financas-nyc1-node-3",
+      "niche": "financas",
+      "region": "nyc1",
+      "timestamp": "2026-04-17T02:55:52.112974",
+      "operational_health": 0.9746527672341709,
+      "synthesis_value": 57.06089533895532,
+      "revenue_usd": 4540.088495574484,
+      "transactions_processed": 29192
+    },
+    {
+      "node_id": "financas-sgp1-node-8",
+      "niche": "financas",
+      "region": "sgp1",
+      "timestamp": "2026-04-17T02:55:52.113076",
+      "operational_health": 0.9601985152957205,
+      "synthesis_value": 56.77965134829386,
+      "revenue_usd": 8284.422392950102,
+      "transactions_processed": 11662
+    },
+    {
+      "node_id": "bio-wealth-ams3-node-8",
+      "niche": "bio-wealth",
+      "region": "ams3",
+      "timestamp": "2026-04-17T02:55:52.112789",
+      "operational_health": 0.9975629714617932,
+      "synthesis_value": 56.13811318517347,
+      "revenue_usd": 744.7065686440001,
+      "bio_insights_collected": 535
+    },
+    {
+      "node_id": "financas-ap-southeast-1-node-2",
+      "niche": "financas",
+      "region": "ap-southeast-1",
+      "timestamp": "2026-04-17T02:55:52.112935",
+      "operational_health": 0.9787158006585046,
+      "synthesis_value": 55.55323104280512,
+      "revenue_usd": 2869.59800398089,
+      "transactions_processed": 14930
+    },
+    {
+      "node_id": "bio-wealth-sgp1-node-6",
+      "niche": "bio-wealth",
+      "region": "sgp1",
+      "timestamp": "2026-04-17T02:55:52.112818",
+      "operational_health": 0.9932947195619901,
+      "synthesis_value": 54.19645057512062,
+      "revenue_usd": 813.7976877852038,
+      "bio_insights_collected": 912
+    },
+    {
+      "node_id": "bio-wealth-ams3-node-3",
+      "niche": "bio-wealth",
+      "region": "ams3",
+      "timestamp": "2026-04-17T02:55:52.112769",
+      "operational_health": 0.976844019792114,
+      "synthesis_value": 52.125638066387886,
+      "revenue_usd": 553.6095683592658,
+      "bio_insights_collected": 700
+    },
+    {
+      "node_id": "financas-eu-west-1-node-2",
+      "niche": "financas",
+      "region": "eu-west-1",
+      "timestamp": "2026-04-17T02:55:52.112897",
+      "operational_health": 0.9846026037239333,
+      "synthesis_value": 50.826622373452395,
+      "revenue_usd": 8206.513443824315,
+      "transactions_processed": 21270
+    },
+    {
+      "node_id": "bio-wealth-sgp1-node-9",
+      "niche": "bio-wealth",
+      "region": "sgp1",
+      "timestamp": "2026-04-17T02:55:52.112831",
+      "operational_health": 0.9918948374058709,
+      "synthesis_value": 49.34753155339121,
+      "revenue_usd": 1851.2087701248524,
+      "bio_insights_collected": 524
+    },
+    {
+      "node_id": "financas-ap-southeast-1-node-6",
+      "niche": "financas",
+      "region": "ap-southeast-1",
+      "timestamp": "2026-04-17T02:55:52.112947",
+      "operational_health": 0.9874648104115468,
+      "synthesis_value": 49.07331149830857,
+      "revenue_usd": 5014.833559910323,
+      "transactions_processed": 35092
+    },
+    {
+      "node_id": "bio-wealth-ap-southeast-1-node-7",
+      "niche": "bio-wealth",
+      "region": "ap-southeast-1",
+      "timestamp": "2026-04-17T02:55:52.112697",
+      "operational_health": 0.9646741444919542,
+      "synthesis_value": 48.83621488050089,
+      "revenue_usd": 4631.699398873033,
+      "bio_insights_collected": 816
+    },
+    {
+      "node_id": "bio-wealth-nyc1-node-8",
+      "niche": "bio-wealth",
+      "region": "nyc1",
+      "timestamp": "2026-04-17T02:55:52.112743",
+      "operational_health": 0.967179624737924,
+      "synthesis_value": 47.38727156031898,
+      "revenue_usd": 924.0702935065809,
+      "bio_insights_collected": 431
+    },
+    {
+      "node_id": "financas-ams3-node-4",
+      "niche": "financas",
+      "region": "ams3",
+      "timestamp": "2026-04-17T02:55:52.113020",
+      "operational_health": 0.9501149253713933,
+      "synthesis_value": 47.17648195149502,
+      "revenue_usd": 7866.120618622928,
+      "transactions_processed": 3328
+    },
+    {
+      "node_id": "bio-wealth-ap-southeast-1-node-4",
+      "niche": "bio-wealth",
+      "region": "ap-southeast-1",
+      "timestamp": "2026-04-17T02:55:52.112686",
+      "operational_health": 0.9816352238706549,
+      "synthesis_value": 46.243264827828,
+      "revenue_usd": 626.6113044266973,
+      "bio_insights_collected": 398
+    },
+    {
+      "node_id": "financas-us-east-1-node-2",
+      "niche": "financas",
+      "region": "us-east-1",
+      "timestamp": "2026-04-17T02:55:52.112848",
+      "operational_health": 0.9688351281130994,
+      "synthesis_value": 45.3435759775542,
+      "revenue_usd": 4494.424320608623,
+      "transactions_processed": 28511
+    },
+    {
+      "node_id": "bio-wealth-nyc1-node-3",
+      "niche": "bio-wealth",
+      "region": "nyc1",
+      "timestamp": "2026-04-17T02:55:52.112717",
+      "operational_health": 0.9797634015550374,
+      "synthesis_value": 40.1234663521674,
+      "revenue_usd": 3863.0593714922056,
+      "bio_insights_collected": 456
+    },
+    {
+      "node_id": "bio-wealth-ams3-node-5",
+      "niche": "bio-wealth",
+      "region": "ams3",
+      "timestamp": "2026-04-17T02:55:52.112781",
+      "operational_health": 0.9678142547260847,
+      "synthesis_value": 39.135560894431734,
+      "revenue_usd": 3040.307115478166,
+      "bio_insights_collected": 682
+    },
+    {
+      "node_id": "financas-us-east-1-node-8",
+      "niche": "financas",
+      "region": "us-east-1",
+      "timestamp": "2026-04-17T02:55:52.112876",
+      "operational_health": 0.9761071038050453,
+      "synthesis_value": 38.82199305120213,
+      "revenue_usd": 4922.039310550344,
+      "transactions_processed": 25132
+    },
+    {
+      "node_id": "financas-ap-southeast-1-node-3",
+      "niche": "financas",
+      "region": "ap-southeast-1",
+      "timestamp": "2026-04-17T02:55:52.112939",
+      "operational_health": 0.978872537643014,
+      "synthesis_value": 37.817362373814966,
+      "revenue_usd": 4405.546722794968,
+      "transactions_processed": 22371
+    },
+    {
+      "node_id": "financas-sgp1-node-2",
+      "niche": "financas",
+      "region": "sgp1",
+      "timestamp": "2026-04-17T02:55:52.113051",
+      "operational_health": 0.9984466539233833,
+      "synthesis_value": 37.11776894648619,
+      "revenue_usd": 8098.216475826998,
+      "transactions_processed": 46956
+    },
+    {
+      "node_id": "bio-wealth-ap-southeast-1-node-0",
+      "niche": "bio-wealth",
+      "region": "ap-southeast-1",
+      "timestamp": "2026-04-17T02:55:52.112663",
+      "operational_health": 0.9508732669009374,
+      "synthesis_value": 35.553119488257735,
+      "revenue_usd": 931.425451015604,
+      "bio_insights_collected": 961
+    },
+    {
+      "node_id": "financas-nyc1-node-6",
+      "niche": "financas",
+      "region": "nyc1",
+      "timestamp": "2026-04-17T02:55:52.112983",
+      "operational_health": 0.9887096345959492,
+      "synthesis_value": 31.442790802400914,
+      "revenue_usd": 6735.296258508356,
+      "transactions_processed": 32327
+    },
+    {
+      "node_id": "bio-wealth-ams3-node-1",
+      "niche": "bio-wealth",
+      "region": "ams3",
+      "timestamp": "2026-04-17T02:55:52.112757",
+      "operational_health": 0.9544094293229871,
+      "synthesis_value": 28.300866723578046,
+      "revenue_usd": 1359.6388702438385,
+      "bio_insights_collected": 126
+    },
+    {
+      "node_id": "financas-sgp1-node-0",
+      "niche": "financas",
+      "region": "sgp1",
+      "timestamp": "2026-04-17T02:55:52.113039",
+      "operational_health": 0.9839153266352859,
+      "synthesis_value": 28.244865241863593,
+      "revenue_usd": 2576.0845432743513,
+      "transactions_processed": 28254
+    },
+    {
+      "node_id": "financas-eu-west-1-node-6",
+      "niche": "financas",
+      "region": "eu-west-1",
+      "timestamp": "2026-04-17T02:55:52.112910",
+      "operational_health": 0.9542286399990499,
+      "synthesis_value": 24.621020097741674,
+      "revenue_usd": 1760.6834486777677,
+      "transactions_processed": 18183
+    },
+    {
+      "node_id": "financas-ap-southeast-1-node-1",
+      "niche": "financas",
+      "region": "ap-southeast-1",
+      "timestamp": "2026-04-17T02:55:52.112930",
+      "operational_health": 0.9751693096443528,
+      "synthesis_value": 24.413010182774944,
+      "revenue_usd": 1821.228794198009,
+      "transactions_processed": 13335
+    },
+    {
+      "node_id": "financas-nyc1-node-5",
+      "niche": "financas",
+      "region": "nyc1",
+      "timestamp": "2026-04-17T02:55:52.112978",
+      "operational_health": 0.9747319170707601,
+      "synthesis_value": 20.823494175735124,
+      "revenue_usd": 4078.7128270703993,
+      "transactions_processed": 12124
+    },
+    {
+      "node_id": "financas-ams3-node-8",
+      "niche": "financas",
+      "region": "ams3",
+      "timestamp": "2026-04-17T02:55:52.113029",
+      "operational_health": 0.9675940425550849,
+      "synthesis_value": 19.901817300204982,
+      "revenue_usd": 9588.982033005266,
+      "transactions_processed": 26601
+    },
+    {
+      "node_id": "financas-ams3-node-3",
+      "niche": "financas",
+      "region": "ams3",
+      "timestamp": "2026-04-17T02:55:52.113015",
+      "operational_health": 0.9783098116516581,
+      "synthesis_value": 18.002273016368445,
+      "revenue_usd": 8876.482957386088,
+      "transactions_processed": 5625
+    },
+    {
+      "node_id": "financas-ap-southeast-1-node-5",
+      "niche": "financas",
+      "region": "ap-southeast-1",
+      "timestamp": "2026-04-17T02:55:52.112943",
+      "operational_health": 0.9553903440108483,
+      "synthesis_value": 17.773950874567454,
+      "revenue_usd": 6562.339019686425,
+      "transactions_processed": 1080
+    },
+    {
+      "node_id": "financas-ams3-node-7",
+      "niche": "financas",
+      "region": "ams3",
+      "timestamp": "2026-04-17T02:55:52.113025",
+      "operational_health": 0.964506276958732,
+      "synthesis_value": 16.990016400318414,
+      "revenue_usd": 4844.777783186765,
+      "transactions_processed": 5259
+    },
+    {
+      "node_id": "financas-us-east-1-node-5",
+      "niche": "financas",
+      "region": "us-east-1",
+      "timestamp": "2026-04-17T02:55:52.112868",
+      "operational_health": 0.9535112008207333,
+      "synthesis_value": 16.20602695102862,
+      "revenue_usd": 2150.573560988316,
+      "transactions_processed": 13344
+    },
+    {
+      "node_id": "financas-us-east-1-node-4",
+      "niche": "financas",
+      "region": "us-east-1",
+      "timestamp": "2026-04-17T02:55:52.112864",
+      "operational_health": 0.9831545475103163,
+      "synthesis_value": 14.725033606298306,
+      "revenue_usd": 8630.677478737822,
+      "transactions_processed": 12270
+    },
+    {
+      "node_id": "financas-ams3-node-0",
+      "niche": "financas",
+      "region": "ams3",
+      "timestamp": "2026-04-17T02:55:52.112998",
+      "operational_health": 0.9791700311180156,
+      "synthesis_value": 12.894838206079347,
+      "revenue_usd": 2349.6586059025244,
+      "transactions_processed": 25820
+    },
+    {
+      "node_id": "financas-eu-west-1-node-7",
+      "niche": "financas",
+      "region": "eu-west-1",
+      "timestamp": "2026-04-17T02:55:52.112913",
+      "operational_health": 0.9815647142931393,
+      "synthesis_value": 12.794486082597746,
+      "revenue_usd": 3509.1751858539255,
+      "transactions_processed": 29920
+    }
+  ]
+}

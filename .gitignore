@@ -1,0 +1,5 @@
+venvs/
+**/.terraform/
+*.tfstate*
+*.log
+iac-expansion-l2/.terraform

@@ -1,0 +1,30 @@
+groups:
+  - name: sample_app_slis
+    rules:
+      - record: sample_app:availability:ratio_5m
+        expr: |
+          sum(rate(http_requests_total{job="sample-app", status!~"5.."}[5m]))
+          /
+          sum(rate(http_requests_total{job="sample-app"}[5m]))
+      - record: sample_app:latency_p95:seconds_5m
+        expr: |
+          histogram_quantile(0.95, sum(rate(http_request_duration_seconds_bucket{job="sample-app"}[5m])) by (le))
+
+  - name: sample_app_alerts
+    rules:
+      - alert: LowAvailability
+        expr: sample_app:availability:ratio_5m < 0.999
+        for: 2m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Sample App availability is low"
+          description: "Availability for sample-app has dropped below 99.9% for more than 2 minutes. Current value: {{ $value }}"
+      - alert: HighLatency
+        expr: sample_app:latency_p95:seconds_5m > 0.2
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Sample App p95 latency is high"
+          description: "p95 latency for sample-app is above 200ms for more than 5 minutes. Current value: {{ $value }}s"
