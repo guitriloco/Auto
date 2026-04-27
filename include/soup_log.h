@@ -18,6 +18,8 @@ typedef struct {
     char notes[MAX_NOTES_LEN];
 } SoupEntry;
 
+typedef void (*SoupObserver)(const SoupEntry *entry);
+void set_soup_observer(SoupObserver observer);
 void print_soup_entry(const SoupEntry *entry);
 
 #ifdef __cplusplus
