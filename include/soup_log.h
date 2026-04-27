@@ -6,6 +6,10 @@
 #define MAX_NAME_LEN 64
 #define MAX_NOTES_LEN 256
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 typedef struct {
     uint32_t id;
     char name[MAX_NAME_LEN];
@@ -15,5 +19,9 @@ typedef struct {
 } SoupEntry;
 
 void print_soup_entry(const SoupEntry *entry);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif // SOUP_LOG_H

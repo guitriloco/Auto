@@ -20,6 +20,8 @@ set(SOURCES
 )
 
 add_executable(souplog ${SOURCES})
+add_library(souplog_shared SHARED src/soup_log.c)
+set_target_properties(souplog_shared PROPERTIES OUTPUT_NAME "souplog")
 
 # Ensure data directory exists
 install(DIRECTORY DESTINATION data)
