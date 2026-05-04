@@ -2,6 +2,13 @@
 
 This repository serves as the single source of truth for the Empire's global autonomous infrastructure, governance engines, and intelligence synthesis.
 
+## 📡 Monitoring HQ (Hardened)
+The centralized monitoring stack has been hardened for Protocol APOGEU:
+- **High Resolution:** 5s scrape and evaluation intervals for real-time fleet visibility.
+- **SLO-Based Alerting:** Immediate (15s) notification on SLO breaches (Availability < 99.99%).
+- **Autonomous Remediation:** Integrated local governors for sub-60s automated recovery triggers.
+- **VCS Sovereignty:** Monitoring configurations and OPA policies are version-controlled and enforced.
+
 ## 🏛 Infrastructure State
 - **Scale:** 540 Autonomous Nodes (108 per Niche).
 - **Clouds:** AWS, Google Cloud Platform (GCP), DigitalOcean.

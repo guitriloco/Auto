@@ -1,30 +1,43 @@
 groups:
-  - name: sample_app_slis
+  - name: empire_slis
     rules:
-      - record: sample_app:availability:ratio_5m
+      - record: empire_asset:availability:ratio_5m
         expr: |
-          sum(rate(http_requests_total{job="sample-app", status!~"5.."}[5m]))
+          sum(rate(http_requests_total{status!~"5.."}[5m]))
           /
-          sum(rate(http_requests_total{job="sample-app"}[5m]))
-      - record: sample_app:latency_p95:seconds_5m
+          sum(rate(http_requests_total[5m]))
+      - record: empire_asset:latency_p95:seconds_5m
         expr: |
-          histogram_quantile(0.95, sum(rate(http_request_duration_seconds_bucket{job="sample-app"}[5m])) by (le))
-
-  - name: sample_app_alerts
+          histogram_quantile(0.95, sum(rate(http_request_duration_seconds_bucket[5m])) by (le))
+      - record: empire_synthesis:duration_seconds:p99
+        expr: |
+          histogram_quantile(0.99, sum(rate(empire_synthesis_duration_seconds_bucket[5m])) by (le))
+      - record: empire_node:roi_status
+        expr: |
+          count(empire_node_roi > 0) / count(empire_node_roi)
+  - name: empire_alerts
     rules:
-      - alert: LowAvailability
-        expr: sample_app:availability:ratio_5m < 0.999
-        for: 2m
+      - alert: GlobalAssetAvailabilityBreach
+        expr: empire_asset:availability:ratio_5m < 0.9999
+        for: 15s
         labels:
           severity: critical
         annotations:
-          summary: "Sample App availability is low"
-          description: "Availability for sample-app has dropped below 99.9% for more than 2 minutes. Current value: {{ $value }}"
-      - alert: HighLatency
-        expr: sample_app:latency_p95:seconds_5m > 0.2
-        for: 5m
+          summary: "Global Asset Availability Breach"
+          description: "Global availability has dropped below 99.99%. Current: {{ $value }}"
+      - alert: SynthesisLatencyBreach
+        expr: empire_synthesis:duration_seconds:p99 > 10
+        for: 15s
         labels:
           severity: warning
         annotations:
-          summary: "Sample App p95 latency is high"
-          description: "p95 latency for sample-app is above 200ms for more than 5 minutes. Current value: {{ $value }}s"
+          summary: "Synthesis Latency Breach"
+          description: "Synthesis latency p99 is above 10s. Current: {{ $value }}s"
+      - alert: MarginIntegrityBreach
+        expr: empire_node:roi_status < 1.0
+        for: 15s
+        labels:
+          severity: critical
+        annotations:
+          summary: "Margin Integrity Breach"
+          description: "Negative ROI nodes detected. Integrity: {{ $value }}"
