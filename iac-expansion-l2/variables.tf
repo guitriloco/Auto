@@ -1,7 +1,7 @@
 variable "instance_count" {
   description = "Number of instances to deploy per region"
   type        = number
-  default     = 10
+  default     = 12
 }
 
 variable "regions_aws" {

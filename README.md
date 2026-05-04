@@ -20,6 +20,7 @@ The centralized monitoring stack has been hardened for Protocol APOGEU:
 - `PROTOCOLS/`: Official historical and active protocols (ARQUITETO, APOGEU, ENTIDADE_12, etc.).
 - `scripts/`:
     - `arbitrage_engine_v2_1.py`: Global governor with 15s monitoring cycle and sub-60s failover.
+    - `incident_responder.py`: Webhook receiver for Alertmanager that triggers immediate self-healing/necromancy.
     - `synthesis_aggregator_l2.py`: Multi-threaded AI aggregator for Bio-Finance correlation.
     - `lucrative_necromancy.py`: ROI-driven cost optimization and Spot instance migration.
 - `monitoring/`: Configuration for the Centralized Monitoring HQ.
