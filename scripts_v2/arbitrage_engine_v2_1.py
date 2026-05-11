@@ -10,7 +10,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 DEFAULT_PROMETHEUS_URL = "http://localhost:9090"
 DEFAULT_APP_DIR = "/opt/devops-squad"
 DEFAULT_SERVICE_NAME = "active-asset"
-SYNTHESIS_REPORT = "/home/team/shared/synthesis/synthesis_report.json"
+SYNTHESIS_REPORT = "/home/team/shared/synthesis/synthesis_report_l2.json"
 
 # Thresholds for decision making (Arbitrage logic)
 LATENCY_UPPER_THRESHOLD = 0.2  # 200ms - Scale up if higher
@@ -64,6 +64,7 @@ def get_synthesis_priority(service_name):
     Checks if the service has high synthesis value based on the report.
     Uses caching to reduce disk I/O.
     """
+    global synthesis_cache
     now = time.time()
     # Cache for 60 seconds
     if synthesis_cache["data"] is None or now - synthesis_cache["last_read"] > 60:
