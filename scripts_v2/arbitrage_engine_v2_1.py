@@ -6,16 +6,28 @@ import argparse
 import json
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
+# Load Central Configuration
+CONFIG_PATH = "/home/team/shared/empire_config.json"
+if os.path.exists(CONFIG_PATH):
+    with open(CONFIG_PATH, "r") as config_file:
+        empire_config = json.load(config_file)
+else:
+    # Fallback to defaults
+    empire_config = {
+        "thresholds": {"latency_slo_sec": 0.1, "availability_target": 0.9999},
+        "paths": {"synthesis_report": "/home/team/shared/synthesis/synthesis_report_l2.json"}
+    }
+
 # Default Configuration
 DEFAULT_PROMETHEUS_URL = "http://localhost:9090"
 DEFAULT_APP_DIR = "/opt/devops-squad"
 DEFAULT_SERVICE_NAME = "active-asset"
-SYNTHESIS_REPORT = "/home/team/shared/synthesis/synthesis_report_l2.json"
+SYNTHESIS_REPORT = empire_config["paths"]["synthesis_report"]
 
 # Thresholds for decision making (Arbitrage logic)
-LATENCY_UPPER_THRESHOLD = 0.2  # 200ms - Scale up if higher
-LATENCY_LOWER_THRESHOLD = 0.05 # 50ms - Scale down if lower
-AVAILABILITY_THRESHOLD = 0.9999 # Updated to 99.99% per EMPIRE_SLO.md
+LATENCY_UPPER_THRESHOLD = empire_config["thresholds"]["latency_slo_sec"] * 2  # 200ms
+LATENCY_LOWER_THRESHOLD = empire_config["thresholds"]["latency_slo_sec"] / 2  # 50ms
+AVAILABILITY_THRESHOLD = empire_config["thresholds"]["availability_target"]
 LOW_REQUEST_RATE = 5.0        # requests/sec - Scale down if lower
 
 # Cache for synthesis priority to avoid redundant file I/O
